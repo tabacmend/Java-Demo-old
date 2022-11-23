@@ -5,7 +5,8 @@
     "projectToken": "",
     "baseBranches": ["main", "log4j-fix"],
     "enableLicenseViolations": "true",
-    "enableIaC": "true"
+    "enableIaC": "true",
+    "enableSAST": "true"
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
