@@ -1,26 +1,8 @@
 {
+  "settingsInheritedFrom": "tabac-mend/whitesource-config@main",
   "scanSettings": {
-    "configMode": "AUTO",
-    "configExternalURL": "",
-    "projectToken": "",
     "baseBranches": ["main", "log4j-fix"],
-    "enableLicenseViolations": "true",
     "enableIaC": "true",
     "enableSAST": "true"
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": true,
-      "minVulnerabilitySeverity": "LOW"
-    },
-    "extends": ["github>whitesource/merge-confidence:beta",":dependencyDashboard"]
   }
 }
