@@ -70,7 +70,7 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		<!-- log4j-core CVE-2021-44228 scan push -->
+		<!-- log4j-core CVE-2021-44228 scan push for Critical -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
