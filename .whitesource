@@ -7,5 +7,5 @@
   "scanSettingsSAST": {
     "enableScan": "true",
     "enableSASTRemdiation": "true"
-  },
+  }
 }
