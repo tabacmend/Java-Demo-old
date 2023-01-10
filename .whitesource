@@ -2,7 +2,10 @@
   "settingsInheritedFrom": "tabac-mend/whitesource-config@main",
   "scanSettings": {
     "baseBranches": ["main", "log4j-fix"],
-    "enableIaC": "true",
-    "enableSAST": "true"
-  }
+    "enableIaC": "true"
+  },
+  "scanSettingsSAST": {
+    "enableScan": "true",
+    "enableSASTRemdiation": "true"
+  },
 }
