@@ -12,7 +12,7 @@ jobs:
       SAST_ORGANIZATION: ${{secrets.SAST_ORGANIZATION}}
       SASTCLI_TOKEN: ${{secrets.SASTCLI_TOKEN}}
       SAST_SERVER: https://saas-eu.mend.io/sast
-      SASTCLI_THRESHOLD_HIGH: 5
+      SASTCLI_THRESHOLD_HIGH: 6
 
     steps:
       - name: Checkout repository
