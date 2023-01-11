@@ -1,0 +1,722 @@
+{
+  "updateType": "OVERRIDE",
+  "type": "UPDATE",
+  "agent": "fs-agent",
+  "agentVersion": "2.9.9.72",
+  "pluginVersion": "21.8.2",
+  "orgToken": "702af698d33747fa8dc4281bad4e931d1481066f1b21417ea81541591662ec03",
+  "userKey": "d01f9a27f9b840cf8951e6e280006d52d2016ee5c4ef4fa5b3e835e84e1221c8",
+  "product": "WS-CLI",
+  "productVersion": "",
+  "timeStamp": 1673439016284,
+  "projects": [
+    {
+      "coordinates": {
+        "artifactId": "Java-Demo-GHC",
+        "version": ""
+      },
+      "dependencies": [
+        {
+          "groupId": "javax.servlet",
+          "artifactId": "jstl",
+          "version": "1.2",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "74aca283cd4f4b4f3e425f5820cda58f44409547",
+          "systemPath": "/Users/oritabac/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar",
+          "optional": false,
+          "filename": "jstl-1.2.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "74aca283cd4f4b4f3e425f5820cda58f44409547",
+            "ADDITIONAL_SHA1": "3bb461ec1ec15e5a7a4d29d770afbd7517104258"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "3bb461ec1ec15e5a7a4d29d770afbd7517104258",
+          "deduped": false
+        },
+        {
+          "groupId": "org.apache.derby",
+          "artifactId": "derby",
+          "version": "10.8.3.0",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "4013f1afcd5175bf5107c68992679b62902c413c",
+          "systemPath": "/Users/oritabac/.m2/repository/org/apache/derby/derby/10.8.3.0/derby-10.8.3.0.jar",
+          "optional": false,
+          "filename": "derby-10.8.3.0.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "4013f1afcd5175bf5107c68992679b62902c413c",
+            "ADDITIONAL_SHA1": "9a39ac35020b5cc366892e6e08c5ae7f990fcba1"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "9a39ac35020b5cc366892e6e08c5ae7f990fcba1",
+          "deduped": false
+        },
+        {
+          "groupId": "javassist",
+          "artifactId": "javassist",
+          "version": "3.12.1.GA",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "526633327faa61aee448a519e8a4d53ec3057885",
+          "systemPath": "/Users/oritabac/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar",
+          "optional": false,
+          "filename": "javassist-3.12.1.GA.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "526633327faa61aee448a519e8a4d53ec3057885",
+            "ADDITIONAL_SHA1": "3fc090e7d6579642a12947db5dbb67686bf9bdba"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "3fc090e7d6579642a12947db5dbb67686bf9bdba",
+          "deduped": false
+        },
+        {
+          "groupId": "org.openjdk.jol",
+          "artifactId": "jol-core",
+          "version": "0.6",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "93befc07f05791757dc7b5e7ffc480fd30a4a25c",
+          "systemPath": "/Users/oritabac/.m2/repository/org/openjdk/jol/jol-core/0.6/jol-core-0.6.jar",
+          "optional": false,
+          "filename": "jol-core-0.6.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "93befc07f05791757dc7b5e7ffc480fd30a4a25c",
+            "ADDITIONAL_SHA1": "88e535e769d1348decd64778c65b1a79437eb04b"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "88e535e769d1348decd64778c65b1a79437eb04b",
+          "deduped": false
+        },
+        {
+          "groupId": "mysql",
+          "artifactId": "mysql-connector-java",
+          "version": "5.1.25",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "6b2835d687a706678591febfd47b077dcce41595",
+          "systemPath": "/Users/oritabac/.m2/repository/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.jar",
+          "optional": false,
+          "filename": "mysql-connector-java-5.1.25.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "6b2835d687a706678591febfd47b077dcce41595",
+            "ADDITIONAL_SHA1": "2a89ec99784616db3e32a49fb30429d56f7ca86d"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "2a89ec99784616db3e32a49fb30429d56f7ca86d",
+          "deduped": false
+        },
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "1.5.0",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "b2df265d02350ecfe87b6c1773c7c4fab2b33505",
+          "systemPath": "/Users/oritabac/.m2/repository/org/slf4j/slf4j-api/1.5.0/slf4j-api-1.5.0.jar",
+          "optional": false,
+          "filename": "slf4j-api-1.5.0.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "b2df265d02350ecfe87b6c1773c7c4fab2b33505",
+            "ADDITIONAL_SHA1": "20bb944e3245cc9706b8f7e714bd32ae0d90dd2f"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "20bb944e3245cc9706b8f7e714bd32ae0d90dd2f",
+          "deduped": false
+        },
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-log4j12",
+          "version": "1.5.0",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "aad1074d37a63f19fafedd272dc7830f0f41a977",
+          "systemPath": "/Users/oritabac/.m2/repository/org/slf4j/slf4j-log4j12/1.5.0/slf4j-log4j12-1.5.0.jar",
+          "optional": false,
+          "children": [
+            {
+              "groupId": "log4j",
+              "artifactId": "log4j",
+              "version": "1.2.13",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "8b1b85d04eea979c33109ea42808b7d3f6d355ab",
+              "systemPath": "/Users/oritabac/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar",
+              "optional": false,
+              "filename": "log4j-1.2.13.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "8b1b85d04eea979c33109ea42808b7d3f6d355ab",
+                "ADDITIONAL_SHA1": "9e82360a40b4bf8f8de67d0f5a94d2eaee4555e0"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "9e82360a40b4bf8f8de67d0f5a94d2eaee4555e0",
+              "deduped": false
+            }
+          ],
+          "filename": "slf4j-log4j12-1.5.0.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "aad1074d37a63f19fafedd272dc7830f0f41a977",
+            "ADDITIONAL_SHA1": "4930f2880f1fad7953130a37f9c1688f2f73ea3e"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "4930f2880f1fad7953130a37f9c1688f2f73ea3e",
+          "deduped": false
+        },
+        {
+          "groupId": "org.apache.directory.server",
+          "artifactId": "apacheds-all",
+          "version": "1.5.5",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "f5b7ce73d6a3cd8a221ca90bdd0c6bbbe914480d",
+          "systemPath": "/Users/oritabac/.m2/repository/org/apache/directory/server/apacheds-all/1.5.5/apacheds-all-1.5.5.jar",
+          "optional": false,
+          "filename": "apacheds-all-1.5.5.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "f5b7ce73d6a3cd8a221ca90bdd0c6bbbe914480d",
+            "ADDITIONAL_SHA1": "07a6f83ad03c8c2cbedba69035eb1dacc7f1f623"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "07a6f83ad03c8c2cbedba69035eb1dacc7f1f623",
+          "deduped": false
+        },
+        {
+          "groupId": "org.owasp.esapi",
+          "artifactId": "esapi",
+          "version": "2.1.0.1",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "8d35e0bad77067b534664cb408493136e086aae1",
+          "systemPath": "/Users/oritabac/.m2/repository/org/owasp/esapi/esapi/2.1.0.1/esapi-2.1.0.1.jar",
+          "optional": false,
+          "children": [
+            {
+              "groupId": "commons-configuration",
+              "artifactId": "commons-configuration",
+              "version": "1.10",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "2b36e4adfb66d966c5aef2d73deb6be716389dc9",
+              "systemPath": "/Users/oritabac/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar",
+              "optional": false,
+              "children": [
+                {
+                  "groupId": "commons-lang",
+                  "artifactId": "commons-lang",
+                  "version": "2.6",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "0ce1edb914c94ebc388f086c6827e8bdeec71ac2",
+                  "systemPath": "/Users/oritabac/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar",
+                  "optional": false,
+                  "filename": "commons-lang-2.6.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "0ce1edb914c94ebc388f086c6827e8bdeec71ac2",
+                    "ADDITIONAL_SHA1": "60190924130544c206c3f2848cc8fbe3fafd40b3"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "60190924130544c206c3f2848cc8fbe3fafd40b3",
+                  "deduped": false
+                },
+                {
+                  "groupId": "commons-logging",
+                  "artifactId": "commons-logging",
+                  "version": "1.1.1",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "5043bfebc3db072ed80fbd362e7caf00e885d8ae",
+                  "systemPath": "/Users/oritabac/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar",
+                  "optional": false,
+                  "filename": "commons-logging-1.1.1.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "5043bfebc3db072ed80fbd362e7caf00e885d8ae",
+                    "ADDITIONAL_SHA1": "38d9620c9c1c01b7bc058d50d2c587b6731e9022"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "38d9620c9c1c01b7bc058d50d2c587b6731e9022",
+                  "deduped": false
+                }
+              ],
+              "filename": "commons-configuration-1.10.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "2b36e4adfb66d966c5aef2d73deb6be716389dc9",
+                "ADDITIONAL_SHA1": "4de7ab3cfe50d6884c227ab91827009ffedaf204"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "4de7ab3cfe50d6884c227ab91827009ffedaf204",
+              "deduped": false
+            },
+            {
+              "groupId": "commons-beanutils",
+              "artifactId": "commons-beanutils-core",
+              "version": "1.8.3",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "75812698e5e859f2cb587c622c4cdfcd61676426",
+              "systemPath": "/Users/oritabac/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.3/commons-beanutils-core-1.8.3.jar",
+              "optional": false,
+              "filename": "commons-beanutils-core-1.8.3.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "75812698e5e859f2cb587c622c4cdfcd61676426",
+                "ADDITIONAL_SHA1": "2d68c4f6333729b0c236c174f5abaaa5fb3934a1"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "2d68c4f6333729b0c236c174f5abaaa5fb3934a1",
+              "deduped": false
+            },
+            {
+              "groupId": "commons-fileupload",
+              "artifactId": "commons-fileupload",
+              "version": "1.3.1",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "c621b54583719ac0310404463d6d99db27e1052c",
+              "systemPath": "/Users/oritabac/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar",
+              "optional": false,
+              "children": [
+                {
+                  "groupId": "commons-io",
+                  "artifactId": "commons-io",
+                  "version": "2.2",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a",
+                  "systemPath": "/Users/oritabac/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar",
+                  "optional": false,
+                  "filename": "commons-io-2.2.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a",
+                    "ADDITIONAL_SHA1": "47fc6c00a975345a5f7bada016758e41ff1ec207"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "47fc6c00a975345a5f7bada016758e41ff1ec207",
+                  "deduped": false
+                }
+              ],
+              "filename": "commons-fileupload-1.3.1.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "c621b54583719ac0310404463d6d99db27e1052c",
+                "ADDITIONAL_SHA1": "ca8c5b967f50c4b2089bf9544e33d37adbe7029c"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "ca8c5b967f50c4b2089bf9544e33d37adbe7029c",
+              "deduped": false
+            },
+            {
+              "groupId": "commons-collections",
+              "artifactId": "commons-collections",
+              "version": "3.2.2",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+              "systemPath": "/Users/oritabac/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+              "optional": false,
+              "filename": "commons-collections-3.2.2.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+                "ADDITIONAL_SHA1": "2b5cb01295e368a56caa7ebbe64ebbbf59cf7127"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "2b5cb01295e368a56caa7ebbe64ebbbf59cf7127",
+              "deduped": false
+            },
+            {
+              "groupId": "xom",
+              "artifactId": "xom",
+              "version": "1.2.5",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "4166493b9f04e91b858ba4150b28b4d197f8f8ea",
+              "systemPath": "/Users/oritabac/.m2/repository/xom/xom/1.2.5/xom-1.2.5.jar",
+              "optional": false,
+              "children": [
+                {
+                  "groupId": "xml-apis",
+                  "artifactId": "xml-apis",
+                  "version": "1.3.03",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "3845d5aabd62dc1954f2c0e84a799068c917ad2b",
+                  "systemPath": "/Users/oritabac/.m2/repository/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar",
+                  "optional": false,
+                  "filename": "xml-apis-1.3.03.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "3845d5aabd62dc1954f2c0e84a799068c917ad2b",
+                    "ADDITIONAL_SHA1": "d4df271a8e106ac5babcb40bfdb0d01c9ff54b91"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "d4df271a8e106ac5babcb40bfdb0d01c9ff54b91",
+                  "deduped": false
+                },
+                {
+                  "groupId": "xerces",
+                  "artifactId": "xercesImpl",
+                  "version": "2.8.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "cfd3ebe2f8034e660344f9108c3e2daf78c29cc3",
+                  "systemPath": "/Users/oritabac/.m2/repository/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar",
+                  "optional": false,
+                  "filename": "xercesImpl-2.8.0.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "cfd3ebe2f8034e660344f9108c3e2daf78c29cc3",
+                    "ADDITIONAL_SHA1": "7d1b7785a76c1c4a19037d2876832ee6360e1641"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "7d1b7785a76c1c4a19037d2876832ee6360e1641",
+                  "deduped": false
+                },
+                {
+                  "groupId": "xalan",
+                  "artifactId": "xalan",
+                  "version": "2.7.0",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "a33c0097f1c70b20fa7ded220ea317eb3500515e",
+                  "systemPath": "/Users/oritabac/.m2/repository/xalan/xalan/2.7.0/xalan-2.7.0.jar",
+                  "optional": false,
+                  "filename": "xalan-2.7.0.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "a33c0097f1c70b20fa7ded220ea317eb3500515e",
+                    "ADDITIONAL_SHA1": "021e737b0c1a86570e15bf636c5963a39d48e628"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "021e737b0c1a86570e15bf636c5963a39d48e628",
+                  "deduped": false
+                }
+              ],
+              "filename": "xom-1.2.5.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "4166493b9f04e91b858ba4150b28b4d197f8f8ea",
+                "ADDITIONAL_SHA1": "acbba80a7e7e0b405d5d06822837f647e4a7c379"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "acbba80a7e7e0b405d5d06822837f647e4a7c379",
+              "deduped": false
+            },
+            {
+              "groupId": "org.beanshell",
+              "artifactId": "bsh-core",
+              "version": "2.0b4",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "495e25a99e29970ffe8ba0b1d551e1d1a9991fc1",
+              "systemPath": "/Users/oritabac/.m2/repository/org/beanshell/bsh-core/2.0b4/bsh-core-2.0b4.jar",
+              "optional": false,
+              "filename": "bsh-core-2.0b4.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "495e25a99e29970ffe8ba0b1d551e1d1a9991fc1",
+                "ADDITIONAL_SHA1": "00e98fadc999f6b82647e3b6fb30210f162c576f"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "00e98fadc999f6b82647e3b6fb30210f162c576f",
+              "deduped": false
+            },
+            {
+              "groupId": "org.owasp.antisamy",
+              "artifactId": "antisamy",
+              "version": "1.5.3",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "7538ad2b1afb74e74cc419e8c7b87abfd5526251",
+              "systemPath": "/Users/oritabac/.m2/repository/org/owasp/antisamy/antisamy/1.5.3/antisamy-1.5.3.jar",
+              "optional": false,
+              "children": [
+                {
+                  "groupId": "net.sourceforge.nekohtml",
+                  "artifactId": "nekohtml",
+                  "version": "1.9.16",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "61e35204e5a8fdb864152f84e2e3b33ab56f50ab",
+                  "systemPath": "/Users/oritabac/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar",
+                  "optional": false,
+                  "filename": "nekohtml-1.9.16.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "61e35204e5a8fdb864152f84e2e3b33ab56f50ab",
+                    "ADDITIONAL_SHA1": "4e34e2452bbc9bead73f2d953a975492f175004a"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "4e34e2452bbc9bead73f2d953a975492f175004a",
+                  "deduped": false
+                },
+                {
+                  "groupId": "commons-httpclient",
+                  "artifactId": "commons-httpclient",
+                  "version": "3.1",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "964cd74171f427720480efdec40a7c7f6e58426a",
+                  "systemPath": "/Users/oritabac/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar",
+                  "optional": false,
+                  "children": [
+                    {
+                      "groupId": "commons-codec",
+                      "artifactId": "commons-codec",
+                      "version": "1.2",
+                      "type": "jar",
+                      "scope": "compile",
+                      "sha1": "397f4731a9f9b6eb1907e224911c77ea3aa27a8b",
+                      "systemPath": "/Users/oritabac/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar",
+                      "optional": false,
+                      "filename": "commons-codec-1.2.jar",
+                      "dependencyType": "MAVEN",
+                      "checksums": {
+                        "SHA1": "397f4731a9f9b6eb1907e224911c77ea3aa27a8b",
+                        "ADDITIONAL_SHA1": "529581e4ee49a654f6ccfb80dd1324ddd6c363c1"
+                      },
+                      "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                      "additionalSha1": "529581e4ee49a654f6ccfb80dd1324ddd6c363c1",
+                      "deduped": false
+                    }
+                  ],
+                  "filename": "commons-httpclient-3.1.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "964cd74171f427720480efdec40a7c7f6e58426a",
+                    "ADDITIONAL_SHA1": "02f10938884e837abe9e586a7eb11a23d7d5d57a"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "02f10938884e837abe9e586a7eb11a23d7d5d57a",
+                  "deduped": false
+                }
+              ],
+              "filename": "antisamy-1.5.3.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "7538ad2b1afb74e74cc419e8c7b87abfd5526251",
+                "ADDITIONAL_SHA1": "3457cc996812ed16d90ba29c47cb883a21088ce5"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "3457cc996812ed16d90ba29c47cb883a21088ce5",
+              "deduped": false
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-css",
+              "version": "1.8",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "2b3f22cc65702a0821b7f0178d055282a1cdde59",
+              "systemPath": "/Users/oritabac/.m2/repository/org/apache/xmlgraphics/batik-css/1.8/batik-css-1.8.jar",
+              "optional": false,
+              "children": [
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-ext",
+                  "version": "1.8",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "8713f3238cfac337624a90c3ad7d45d7bc6fb1b5",
+                  "systemPath": "/Users/oritabac/.m2/repository/org/apache/xmlgraphics/batik-ext/1.8/batik-ext-1.8.jar",
+                  "optional": false,
+                  "filename": "batik-ext-1.8.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "8713f3238cfac337624a90c3ad7d45d7bc6fb1b5",
+                    "ADDITIONAL_SHA1": "ea7e07700da248c843230d799fbd198730b341c1"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "ea7e07700da248c843230d799fbd198730b341c1",
+                  "deduped": false
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-util",
+                  "version": "1.8",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "35dcd204f397d6976290ca48ffa0011ba9b7ef43",
+                  "systemPath": "/Users/oritabac/.m2/repository/org/apache/xmlgraphics/batik-util/1.8/batik-util-1.8.jar",
+                  "optional": false,
+                  "filename": "batik-util-1.8.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "35dcd204f397d6976290ca48ffa0011ba9b7ef43",
+                    "ADDITIONAL_SHA1": "4889557f3a02c3abe646412e51c516e7e53ae9fa"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "4889557f3a02c3abe646412e51c516e7e53ae9fa",
+                  "deduped": false
+                },
+                {
+                  "groupId": "xml-apis",
+                  "artifactId": "xml-apis-ext",
+                  "version": "1.3.04",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "41a8b86b358e87f3f13cf46069721719105aff66",
+                  "systemPath": "/Users/oritabac/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar",
+                  "optional": false,
+                  "filename": "xml-apis-ext-1.3.04.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "41a8b86b358e87f3f13cf46069721719105aff66",
+                    "ADDITIONAL_SHA1": "d483e8c857dc60e46e4f4d3868bcb67c67767d84"
+                  },
+                  "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+                  "additionalSha1": "d483e8c857dc60e46e4f4d3868bcb67c67767d84",
+                  "deduped": false
+                }
+              ],
+              "filename": "batik-css-1.8.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "2b3f22cc65702a0821b7f0178d055282a1cdde59",
+                "ADDITIONAL_SHA1": "124aef24dac79626cad7633b5b14a1422b7bfadb"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "124aef24dac79626cad7633b5b14a1422b7bfadb",
+              "deduped": false
+            }
+          ],
+          "filename": "esapi-2.1.0.1.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "8d35e0bad77067b534664cb408493136e086aae1",
+            "ADDITIONAL_SHA1": "d58301cc5ae0e421cbc5e128c0601a3dc2f93f71"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "d58301cc5ae0e421cbc5e128c0601a3dc2f93f71",
+          "deduped": false
+        },
+        {
+          "groupId": "ognl",
+          "artifactId": "ognl",
+          "version": "3.0.17",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "0b58bd5afe58301dea7c5cd2851e74a33839760b",
+          "systemPath": "/Users/oritabac/.m2/repository/ognl/ognl/3.0.17/ognl-3.0.17.jar",
+          "optional": false,
+          "filename": "ognl-3.0.17.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "0b58bd5afe58301dea7c5cd2851e74a33839760b",
+            "ADDITIONAL_SHA1": "ac808f4e3fdabff3cdcf6bf11d0648cb6dc529ff"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "ac808f4e3fdabff3cdcf6bf11d0648cb6dc529ff",
+          "deduped": false
+        },
+        {
+          "groupId": "com.sun.mail",
+          "artifactId": "javax.mail",
+          "version": "1.5.1",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "9724dd44f1abbba99c9858aa05fc91d53f59e7a5",
+          "systemPath": "/Users/oritabac/.m2/repository/com/sun/mail/javax.mail/1.5.1/javax.mail-1.5.1.jar",
+          "optional": false,
+          "children": [
+            {
+              "groupId": "javax.activation",
+              "artifactId": "activation",
+              "version": "1.1",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "e6cb541461c2834bdea3eb920f1884d1eb508b50",
+              "systemPath": "/Users/oritabac/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar",
+              "optional": false,
+              "filename": "activation-1.1.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "e6cb541461c2834bdea3eb920f1884d1eb508b50",
+                "ADDITIONAL_SHA1": "97add0811161b53a11018ee2b76e3c9530c0fc0e"
+              },
+              "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+              "additionalSha1": "97add0811161b53a11018ee2b76e3c9530c0fc0e",
+              "deduped": false
+            }
+          ],
+          "filename": "javax.mail-1.5.1.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "9724dd44f1abbba99c9858aa05fc91d53f59e7a5",
+            "ADDITIONAL_SHA1": "c9e145aeccba80f1480feaa0e5359058949fab77"
+          },
+          "dependencyFile": "/Users/oritabac/Documents/Demos/Java-Demo-GHC/pom.xml",
+          "additionalSha1": "c9e145aeccba80f1480feaa0e5359058949fab77",
+          "deduped": false
+        }
+      ],
+      "projectTags": []
+    }
+  ],
+  "aggregateModules": false,
+  "preserveModuleStructure": false,
+  "extraProperties": {},
+  "scanSummaryInfo": {
+    "totalElapsedTime": 1851,
+    "stepsSummaryInfo": [
+      {
+        "stepName": "Fetch Configuration",
+        "totalElapsedTime": 70,
+        "isSubStep": false,
+        "stepCompletionStatus": "COMPLETED",
+        "subStepsInfo": []
+      },
+      {
+        "totalUniqueDependenciesFound": 33,
+        "totalDuplicateDependenciesFound": 0,
+        "stepName": "Pre-Step And Resolve Dependencies",
+        "totalElapsedTime": 1663,
+        "isSubStep": false,
+        "stepCompletionStatus": "COMPLETED",
+        "subStepsInfo": [
+          {
+            "totalUniqueDependenciesFound": 33,
+            "totalDuplicateDependenciesFound": 0,
+            "stepName": "MAVEN",
+            "totalElapsedTime": 1343,
+            "isSubStep": true,
+            "stepCompletionStatus": "COMPLETED",
+            "subStepsInfo": []
+          }
+        ]
+      },
+      {
+        "totalSourceBinariesFound": 0,
+        "stepName": "Scan Files Matching Includes Pattern",
+        "totalElapsedTime": 118,
+        "isSubStep": false,
+        "stepCompletionStatus": "COMPLETED",
+        "subStepsInfo": []
+      }
+    ],
+    "packageManagers": [
+      "MAVEN"
+    ],
+    "sourceControlManagers": [],
+    "containerRegistries": [],
+    "otherIntegrationTypes": [],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "CLI",
+      "version": "0.28.1"
+    },
+    "scanStatistics": {}
+  }
+}
