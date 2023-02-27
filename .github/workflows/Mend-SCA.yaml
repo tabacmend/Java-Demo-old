@@ -32,7 +32,6 @@ jobs:
         WS_GENERATEPROJECTDETAILSJSON: true
         WS_CHECKPOLICIES: true
       run: |
-        echo Downloading Mend Agent
         curl -LJO https://unified-agent.s3.amazonaws.com/wss-unified-agent.jar
         echo Unified Agent downloaded successfully
         java -jar wss-unified-agent.jar
