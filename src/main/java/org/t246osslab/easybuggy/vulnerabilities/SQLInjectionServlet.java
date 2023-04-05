@@ -26,6 +26,7 @@ public class SQLInjectionServlet extends AbstractServlet {
         try {
             String name = StringUtils.trim(req.getParameter("name"));
             String password = StringUtils.trim(req.getParameter("password"));
+            String passwordNew = StringUtils.trim(req.getParameter("password"));
             Locale locale = req.getLocale();
             StringBuilder bodyHtml = new StringBuilder();
 
@@ -41,8 +42,8 @@ public class SQLInjectionServlet extends AbstractServlet {
             bodyHtml.append("<input type=\"submit\" value=\"" + getMsg("label.submit", locale) + "\">");
             bodyHtml.append("<br><br>");
 
-            if (!StringUtils.isBlank(name) && !StringUtils.isBlank(password) && password.length() >= 8) {
-                bodyHtml.append(selectUsers(name, password, req));
+            if (!StringUtils.isBlank(name) && !StringUtils.isBlank(passwordNew) && passwordNew.length() >= 8) {
+                bodyHtml.append(selectUsers(name, passwordNew, req));
             } else {
                 bodyHtml.append(getMsg("msg.warn.enter.name.and.passwd", locale));
                 bodyHtml.append("<br><br>");
@@ -57,7 +58,7 @@ public class SQLInjectionServlet extends AbstractServlet {
         }
     }
 
-    private String selectUsers(String name, String password, HttpServletRequest req) {
+    private String selectUsers(String name, String passwordNew, HttpServletRequest req) {
         
         Connection conn = null;
         Statement stmt = null;
@@ -67,7 +68,7 @@ public class SQLInjectionServlet extends AbstractServlet {
             conn = DBClient.getConnection();
             stmt = conn.createStatement();
             rs = stmt.executeQuery("SELECT name, secret FROM users WHERE ispublic = 'true' AND name='" + name
-                    + "' AND password='" + password + "'");
+                    + "' AND password='" + passwordNew + "'");
             StringBuilder sb = new StringBuilder();
             while (rs.next()) {
                 sb.append("<tr><td>" + rs.getString("name") + "</td><td>" + rs.getString("secret") + "</td></tr>");
