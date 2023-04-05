@@ -43,7 +43,7 @@ public class SQLInjectionServlet extends AbstractServlet {
             bodyHtml.append("<br><br>");
 
             if (!StringUtils.isBlank(name) && !StringUtils.isBlank(passwordNew) && passwordNew.length() >= 8) {
-                bodyHtml.append(selectUsers(name, passwordNew, req));
+                bodyHtml.append(selectUsersNew(name, passwordNew, req));
             } else {
                 bodyHtml.append(getMsg("msg.warn.enter.name.and.passwd", locale));
                 bodyHtml.append("<br><br>");
@@ -58,7 +58,7 @@ public class SQLInjectionServlet extends AbstractServlet {
         }
     }
 
-    private String selectUsers(String name, String passwordNew, HttpServletRequest req) {
+    private String selectUsersNew(String name, String passwordNew, HttpServletRequest req) {
         
         Connection conn = null;
         Statement stmt = null;
